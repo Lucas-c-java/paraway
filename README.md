@@ -3,6 +3,11 @@ Un effaroucheur de perruches doté d'intelligence artificielle : il se compose d
 
 Contexte : Journée des projets E3E de l'ESIEE PARIS en 2026
 
+> **La partie IA (dataset, entraînement et comparaison des modèles) est dans un dépôt séparé :
+> [manonschielin/paraway-ia](https://github.com/manonschielin/paraway-ia).**
+> On y trouve la constitution du dataset (8 283 images), les CNN entraînés avec Keras, la comparaison avec YOLO26
+> et l'export du modèle final vers Edge Impulse. Ce dépôt-ci contient le système embarqué.
+
 <img width="1776" height="890" alt="image" src="https://github.com/user-attachments/assets/6ec508c8-42a0-458c-a27d-8708ca8dced9" />
 <img width="1787" height="1003" alt="image" src="https://github.com/user-attachments/assets/cb13827e-9103-4bed-b343-9bf648d20b95" />
 
@@ -189,6 +194,10 @@ effaroucheur-perruches/
 ---
 
 ## 6. L'IA : modèle, inférence et anti-faux-positifs
+
+> L'entraînement du modèle et le choix entre les différentes architectures sont documentés dans
+> [manonschielin/paraway-ia](https://github.com/manonschielin/paraway-ia).
+
 <img width="1787" height="1002" alt="image" src="https://github.com/user-attachments/assets/fb0eec30-1ec1-4e9d-8f8f-8824b0352862" />
 
 ### Le modèle Edge Impulse
