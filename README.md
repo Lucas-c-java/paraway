@@ -1,11 +1,12 @@
 # Parakeet-Scarer
-*Projet d'équipe réalisé à l'ESIEE Paris (Journée des projets 2026). Le travail a été fait sur un Drive partagé, puis mis en ligne en fin de projet par un membre de l'équipe : l'historique Git ne reflète donc pas la répartition du travail. Dépôt original : https://github.com/3gol1ft/parakeet-scarer*
+Projet d'équipe réalisé à l'ESIEE Paris (Journée des projets 2026 : retenu pour le second passage du jury, 2e prix de la vidéo). Le travail a été fait sur un Drive partagé, puis mis en ligne en fin de projet par un membre de l'équipe : l'historique Git ne reflète donc pas la répartition du travail. Dépôt original : https://github.com/3gol1ft/parakeet-scarer
 
 **Ma contribution (Lucas) :**
 - Choix du matériel
 - Gestion de l'autonomie énergétique du dispositif
 - Conception de l'électronique et programmation de l'ESP32 du module de dissuasion par vibration
 - Liaison Bluetooth Low Energy entre les modules ESP32 et l'Arduino UNO Q
+- Création des visuels ainsi que la vidéo de présentation (2e prix de la vidéo)
 
   
 Un effaroucheur de perruches doté d'intelligence artificielle : il se compose de trois modules. Le premier module comprend un Arduino Uno Q et une caméra servant à détecter les perruches. Les deux autres modules sont un moteur et un haut-parleur qui communiquent avec le module 1 via des ESP32 utilisant la technologie BLE.
